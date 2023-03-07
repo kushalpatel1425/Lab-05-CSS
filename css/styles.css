@@ -1,0 +1,242 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Slab&family=Shantell+Sans:wght@300&family=Syne&display=swap');
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Typography*/
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+p,
+a,
+li,
+td,
+th {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+}
+
+body {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 2.7rem;
+}
+
+h2 {
+    font-size: 2.34rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    line-height: 2.4em;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+section h2+p {
+    text-indent: 20px;
+}
+
+.main-container {
+    display: flex;
+}
+
+section {
+    width: 50%;
+    padding: 5em;
+}
+
+aside {
+    width: 30%;
+    padding: 5em;
+}
+
+nav {
+    width: 20%;
+    padding: 5em;
+}
+
+ul {
+    line-height: 3em;
+}
+
+nav ul {
+    list-style:none;
+}
+
+/*design*/
+/*aside */
+aside ul {
+    list-style: square;
+}
+
+aside ul li a:hover {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+aside a {
+    color: blue;
+}
+
+aside a:visited {
+    color: #FF0303;
+}
+
+aside a:hover {
+    color: #181823;
+    text-decoration: none;
+}
+
+aside:focus {
+    color: blue;
+}
+
+aside a:active {
+    color: #4E6E81;
+    font-weight: 700;
+}
+
+a:focus {
+    outline: none;
+}
+
+header {
+    padding: 2em;
+    border-top: 5.4px solid black;
+    border-bottom: 5.4px solid black;
+}
+
+h1,
+h2,
+h3 {
+    padding: 1.3em;
+}
+
+nav ul li {
+    padding: 1em;
+    background-color: #2E3840;
+    margin: 2em auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: #F9DBBB;
+}
+
+header {
+    background-color: #FF0303;
+    color:#2E3840;
+}
+
+footer{
+    background-color: #FF0303;
+    color:#2E3840;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black
+}
+
+nav ul li:hover {
+    background-color: #4E6E81;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+section ol li {
+    margin: 1em 0;
+}
+
+
+section ol li a:hover{
+    text-decoration: none;
+    color:#3F979B;
+}
+
+aside ul li {
+    padding: 0.5em;
+}
+
+section p a:hover{
+    text-decoration: none;
+    color:blue;
+}
+
+section p a {
+    padding-right: 20px;
+    background-size: 20px;
+    background-image: url('../Images/icon1.png'); 
+    background-repeat: no-repeat;
+    background-position: right center;}
